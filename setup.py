@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["flask>=2.0.1"]
+requirements = []
 
 setup(
     name="congadocumentstatusservice",
-    version="0.0.1",
+    version="0.0.3",
     author="Nikola Markovic",
     author_email="nmarkovic@conga.com",
     description="A package change document process status for Conga core app",
